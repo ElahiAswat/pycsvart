@@ -24,14 +24,6 @@ with open(csv_path, mode='w', newline='') as file:
                      diff = text(binary[y, x])
                      row.append(diff)
             writer.writerow(row)
-'''
-i=0
-for y in range(binary.shape[0]):
-    for x in range(binary.shape[1]):
-            i=i+1
-            print(i)           
-            
-print(x*y)'''
 
         
                         
